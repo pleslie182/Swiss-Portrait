@@ -1,0 +1,220 @@
+﻿body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: teal;
+}
+strong {
+  text-decoration: bold;
+}
+
+.background {
+  background-image: url("assets/swissPortrait.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Footer */
+
+#rotate-text {
+  position: absolute;
+  bottom: 115px;
+  left: -136px;
+  transform: rotate(270deg);
+  color: white;
+  background-color: teal;
+  margin-top: 0;
+  padding-right: 138px ;
+}
+
+.dropbtn {
+  background-color: #c0c0c0;
+  color: black;
+  padding: 4px;
+  font-size: 16px;
+  border: 1px outset #fff;
+  outline: none;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #c0c0c0;
+  min-width: 180px;
+  height: 300px;
+  bottom: 30.75px;
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 14px 35px 18px 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+.dropup-content img {
+  padding: 0px;
+  display: inline-block;
+  width: 24px;
+}
+
+.dropup-content a:hover {background-color: #ccc}
+
+.dropup:hover .dropbtn {
+  background-color: #c0c0c0;
+}
+
+.show {display: block;}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c0c0c0;
+  border: 1px outset #fff;
+  color: black;
+}
+
+#icons {
+  display: inline-block;
+  float: right;
+  padding: 3px 1px 1px 1px;
+  border: 1px inset #fff;
+}
+
+#time {
+  display: inline-block;
+  float: right;
+  padding: 6px;
+  font-size: 14px;
+  border: 1px inset #fff;
+}
+
+/* Modal */
+
+[id^=modal] {
+  display: none;
+  border: 2px outset  #c0c0c0;
+  background-color: #c0c0c0;
+  position: fixed;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  height: 80%;
+  }
+
+input[type=checkbox] {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  }
+
+#modal1:target {
+  display: block;
+  }
+
+#modal2:target {
+  display: block;
+  }
+
+#modal3:target {
+  display: block;
+}
+
+#modal4:target {
+  display: block;
+}
+
+#modal5:target {
+  display: block;
+}
+
+[id^=modal] a.button {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  color: #1601f5;
+  text-decoration: underline;
+  border: none;
+}
+
+[id^=modal] a {
+  float: right;
+  border: 1px outset #fff;
+  background-color:  #c0c0c0;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+  margin-right: 2px;
+  height: 16px;
+  width: 16px;
+  align-items: center;
+  text-align: center;
+  line-height: 14px;
+  }
+
+[id^=modal] h1 {
+  color: white;
+  position: fixed;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  top: -1;
+  width: 100%;
+  background-color: #010081;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+[id^=modal] p {
+  background-color: #fadaf0;
+  background-image: url("assets/modelBackground.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  position: fixed;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  top: 22px;
+  width: 100%;
+  height: 96.5%;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  overflow:auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  max-width: 98%;
+}
+
+.videoCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 525px;
+  max-width: 98%;
+}
