@@ -149,6 +149,18 @@ input[type=checkbox] {
   border: none;
 }
 
+[id^=modal] a.contact_button {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  color: #1601f5;
+  text-decoration: underline;
+  border: none;
+}
+
 [id^=modal] a.icon {
   float: right;
   border: 1px outset #fff;
