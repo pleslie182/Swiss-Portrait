@@ -9,7 +9,7 @@ strong {
 }
 
 .background {
-  background-image: url("assets/swissPortrait.png");
+  background-image: url("assets/SwissPortrait.png");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -84,14 +84,12 @@ strong {
 }
 
 #icons {
-  display: inline-block;
   float: right;
   padding: 3px 1px 1px 1px;
   border: 1px inset #fff;
 }
 
 #time {
-  display: inline-block;
   float: right;
   padding: 6px;
   font-size: 14px;
@@ -117,23 +115,23 @@ input[type=checkbox] {
   clip: rect(0 0 0 0);
   }
 
-#modal1:target {
+#modal_gigs:target {
   display: block;
   }
 
-#modal2:target {
+#modal_videos:target {
   display: block;
   }
 
-#modal3:target {
+#modal_merch:target {
   display: block;
 }
 
-#modal4:target {
+#modal_contact:target {
   display: block;
 }
 
-#modal5:target {
+#modal_solitaire:target {
   display: block;
 }
 
