@@ -9,7 +9,7 @@ strong {
 }
 
 .background {
-  background-image: url("assets/SwissPortrait.png");
+  background-image: url("assets/swissPortraitBG.jpg");
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -36,6 +36,7 @@ strong {
   font-size: 16px;
   border: 1px outset #fff;
   outline: none;
+  text-decoration: none;
 }
 
 .dropup {
@@ -108,20 +109,20 @@ strong {
   transform: translate(-50%,-50%);
   width: 80%;
   height: 80%;
-  }
+}
 
 input[type=checkbox] {
   position: absolute;
   clip: rect(0 0 0 0);
-  }
+}
 
 #modal_gigs:target {
   display: block;
-  }
+}
 
 #modal_videos:target {
   display: block;
-  }
+}
 
 #modal_merch:target {
   display: block;
@@ -133,6 +134,22 @@ input[type=checkbox] {
 
 #modal_solitaire:target {
   display: block;
+}
+
+#modal_home:target {
+  display: block;
+}
+
+[id^=modal_epk_bio] {
+  display: block;
+  border: 2px outset  #c0c0c0;
+  background-color: #c0c0c0;
+  position: fixed;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  height: 80%;
 }
 
 [id^=modal] a.button {
@@ -155,7 +172,7 @@ input[type=checkbox] {
   height: 50px;
   background-color: transparent;
   color: #1601f5;
-  text-decoration: underline;
+  text-decoration: none;
   border: none;
 }
 
@@ -229,6 +246,26 @@ input[type=checkbox] {
   overflow:auto;
 }
 
+[id^=modal_epk_bio] p {
+  background-color: #c0c0c0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  position: fixed;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  top: 22px;
+  width: 100%;
+  height: 96.5%;
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  overflow:auto;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -244,4 +281,41 @@ input[type=checkbox] {
   width: 1000px;
   height: 525px;
   max-width: 98%;
+}
+
+.videoInline {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+  height: 420px;
+  max-width: 98%;
+}
+
+.imageInline {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+
+  max-width: 98%;
+}
+
+
+
+/* MOve diV */
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
 }
